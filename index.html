@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - เกมส์เป่ายิ้งฉุบ</title>
+    <script src="https://kit.fontawesome.com/418458f674.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<div class="aichoice">
+  <img src="/hacker.svg" id="hacker" alt="Hacker">
+  <img id="opponent-choice-img" src="" alt="" style="display: none;">
+</div>
+
+<div class="result">
+  <h2>ผลลัพท์ : <span id="txtresult"></span></h2>
+</div>
+
+<div class="mychoice">
+    <button type="button" class="button" onclick="playGame('rock')">
+        <div class="button-top">ค้อน</div>
+        <div class="button-bottom"></div>
+        <div class="button-base"></div>
+      </button>
+
+      <button type="button" class="button" onclick="playGame('paper')">
+        <div class="button-top">กระดาษ</div>
+        <div class="button-bottom"></div>
+        <div class="button-base"></div>
+      </button>
+
+      <button type="button" class="button" onclick="playGame('scissors')">
+        <div class="button-top">กรรไกร</div>
+        <div class="button-bottom"></div>
+        <div class="button-base"></div>
+      </button>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
