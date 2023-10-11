@@ -24,7 +24,7 @@ let checkResult = (mychoice, opponentchoice) => {
 
 //ฟังก์ชั่นสำหรับเลือกภาพ
 function displayComputerChoiceImage(choice) {
-    var imgSrc = choice + ".svg"; // ตั้งชื่อไฟล์รูปภาพตามต้องการ
+    var imgSrc = "img/" + choice + ".svg"; // ตั้งชื่อไฟล์รูปภาพตามต้องการ
     document.getElementById("opponent-choice-img").src = imgSrc;
     document.getElementById("opponent-choice-img").style.display = "block";
 }
